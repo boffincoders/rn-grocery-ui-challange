@@ -6,6 +6,8 @@ import Checkout from './src/screens/checkout';
 import BuyMoreProducts from './src/screens/buyMoreProducts';
 import Cart from './src/screens/Cart';
 import SplashScreen from './src/screens/splashScreen';
+import {LogBox} from 'react-native';
+LogBox.ignoreAllLogs();
 const App = () => {
   const [splashScreen, setSplashScreen] = useState(true);
   const Stack = createNativeStackNavigator();
